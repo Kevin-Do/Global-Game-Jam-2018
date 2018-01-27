@@ -10,14 +10,27 @@ public class FollowerController : MonoBehaviour {
 	public bool isFollowing = false;
 
 	private List<Vector3> pastPositions;
+	private List<bool> pastFloors;
 	private int numOffset;
 	public int spacing;
+	private int index;
+	
+	
+	public particleController particlePrefab;
+	public float soundSpeed;
+	public Color soundColor;
+	public int numSoundParticles;
+	public float lifetimeSoundParticles;
+
+	private bool canEmit;
+	private bool onFloor;
 
 	
 	void Awake () {
 		pastPositions = new List<Vector3>();
+		pastFloors = new List<bool>();
 		spacing = 8;
-//		player = GameObject.Find("Player").GetComponent<PlayerController>("PlayerController");
+		canEmit = true;
 	}
 	
 	// Use this for initialization
@@ -36,17 +49,20 @@ public class FollowerController : MonoBehaviour {
 				if ((pastPositions[0] - playerPosition).magnitude > 0.00001 )
 				{
 					pastPositions.Insert(0, playerPosition);
+					pastFloors.Insert(0, (GameObject.Find("Player").GetComponent<PlayerController>() as PlayerController).onFloor);
 				}
 				
 			}
 			else
 			{
 				pastPositions.Insert(0, playerPosition);
+				pastFloors.Insert(0, (GameObject.Find("Player").GetComponent<PlayerController>() as PlayerController).onFloor);
 			}
 		
 			if (pastPositions.Count > numOffset)
 			{
 				pastPositions.RemoveAt(pastPositions.Count - 1);
+				pastFloors.RemoveAt(pastFloors.Count - 1);
 			}
 		}
 		
@@ -59,6 +75,7 @@ public class FollowerController : MonoBehaviour {
 			Vector3 lastPosition = pastPositions[pastPositions.Count - 1];
 			Vector3 currentPosition = transform.position;
 			transform.position = (lastPosition + currentPosition * 3) / 4;
+			onFloor = pastFloors[pastFloors.Count - 1];
 
 		}
 	}
@@ -68,6 +85,57 @@ public class FollowerController : MonoBehaviour {
 		
 		SavePosition();
 		Follow();
+		SoundEmit();
+	}
+	
+	private void CreateParticles(float angle, int numSoundParticles, bool loop)
+	{
+		
+		particleController prev = null;
+		particleController first = null;
+		for (float i = 0; i < angle; i += (float) angle/numSoundParticles)
+		{
+			
+			particleController pc = Instantiate(particlePrefab) as particleController;
+			if (prev != null)
+			{
+				prev.Connect(pc, soundColor);
+			}
+			else
+			{
+				first = pc;
+			}
+			prev = pc;
+			
+			Physics2D.IgnoreCollision(pc.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+			Vector2 dir =  new Vector2( Mathf.Cos(i) , Mathf.Sin(i));
+			pc.rb.velocity = dir * soundSpeed;
+			pc.transform.position = transform.position;
+			pc.setStrength(3 / lifetimeSoundParticles );
+			
+			Destroy (pc.gameObject , lifetimeSoundParticles);
+		}
+		if (loop)
+		{
+			prev.Connect(first, soundColor);
+		}
+	}
+	
+	void SoundEmit()
+	{
+		if ((index > 0) && Input.GetButtonDown("Emit" + index.ToString()) && canEmit)
+		{
+			if (onFloor)
+			{
+				CreateParticles(Mathf.PI, (int) numSoundParticles / 2, false);
+			}
+			else
+			{
+				CreateParticles(Mathf.PI * 2, (int) numSoundParticles, true);
+			}
+			
+			
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D other)
@@ -77,10 +145,9 @@ public class FollowerController : MonoBehaviour {
 		{
 			PlayerController player = other.gameObject.GetComponent(typeof(PlayerController)) as PlayerController;
 			numOffset = spacing +  spacing * player.followers;
-			Debug.Log(player.followers);
+			index = player.followers + 1;
 			player.followers += 1;
 			isFollowing = true;
-			Debug.Log(player.followers);
 		}
 	}
 }
