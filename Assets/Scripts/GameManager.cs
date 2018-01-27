@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
 
 	public static GameManager Instance = null;
 	public GameObject Player;
-
+	public GameObject PauseUI;
+	public bool Paused = false;
+	
 	private void Awake()
 	{
 		if (Instance == null)
@@ -23,15 +26,28 @@ public class GameManager : MonoBehaviour
 
 	// Update is called once per frame
 	void Update () {
+		
+		//Handle Pause Menu
 		PauseGame();
 	}
 
 	void PauseGame()
 	{
-		if (Input.GetKey(KeyCode.Escape))
+		if (Input.GetKeyUp(KeyCode.Escape))
 		{
-			var paused = Player.GetComponent<PlayerController>().freezePlayer;
-			Player.GetComponent<PlayerController>().freezePlayer = !paused;
+			Paused = !Paused;
+			PauseUI.SetActive(Paused);
+			Player.GetComponent<PlayerController>().freezePlayer = Paused;
 		}
+	}
+
+	void ReturnToMainMenu()
+	{
+		SceneManager.LoadScene("MainMenu");
+	}
+	
+	void Quit()
+	{
+		Application.Quit();
 	}
 }
