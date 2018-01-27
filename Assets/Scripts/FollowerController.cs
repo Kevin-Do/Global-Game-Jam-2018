@@ -11,10 +11,12 @@ public class FollowerController : MonoBehaviour {
 
 	private List<Vector3> pastPositions;
 	private int numOffset;
+	public int spacing;
 
 	
 	void Awake () {
 		pastPositions = new List<Vector3>();
+		spacing = 8;
 //		player = GameObject.Find("Player").GetComponent<PlayerController>("PlayerController");
 	}
 	
@@ -31,10 +33,11 @@ public class FollowerController : MonoBehaviour {
 
 			if (pastPositions.Count > 0)
 			{
-				if (pastPositions[0] != playerPosition)
+				if ((pastPositions[0] - playerPosition).magnitude > 0.00001 )
 				{
 					pastPositions.Insert(0, playerPosition);
-				} 
+				}
+				
 			}
 			else
 			{
@@ -55,7 +58,6 @@ public class FollowerController : MonoBehaviour {
 		if (isFollowing && pastPositions.Count > 0) {
 			Vector3 lastPosition = pastPositions[pastPositions.Count - 1];
 			Vector3 currentPosition = transform.position;
-
 			transform.position = (lastPosition + currentPosition * 3) / 4;
 
 		}
@@ -74,7 +76,7 @@ public class FollowerController : MonoBehaviour {
 		if (!isFollowing && other.gameObject.tag == "Player")
 		{
 			PlayerController player = other.gameObject.GetComponent(typeof(PlayerController)) as PlayerController;
-			numOffset = 10 + 10 * player.followers;
+			numOffset = spacing +  spacing * player.followers;
 			Debug.Log(player.followers);
 			player.followers += 1;
 			isFollowing = true;

@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
 	void Awake () {
 		rb = GetComponent<Rigidbody2D>();
 		followers = 0;
+		canJump = false;
 	}
 	
 	
@@ -63,6 +64,8 @@ public class PlayerController : MonoBehaviour
 	{
 		if (Input.GetButtonDown("Jump") && jumpCount < jumpLimit && canJump)
 		{
+
+			Debug.Log("Pressed");
 			jumpCount++;
 			Vector2 movement = Vector2.up * playerJumpForce;
 			rb.velocity = new Vector2(rb.velocity.x, (float) 0.1);
