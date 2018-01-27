@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
 
 	void Jump()
 	{
-		if (Input.GetButtonDown("Jump") && jumpCount < jumpLimit && canJump)
+		if (Input.GetKeyDown(KeyCode.Space) && jumpCount < jumpLimit && canJump)
 		{
 
 			Debug.Log("Pressed");
