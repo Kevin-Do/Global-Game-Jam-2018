@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 	public float playerJumpForce;
 	private bool canJump;
 	public bool freezePlayer;
+	public int followers;
 	
 	//Jump Variables
 	public int jumpCount = 0;
@@ -20,11 +21,12 @@ public class PlayerController : MonoBehaviour
 
 	void Awake () {
 		rb = GetComponent<Rigidbody2D>();
+		followers = 0;
 	}
 	
 	
-	void Update() {
-		
+	void Update()
+	{
 		//Handle Pause Menu
 		if (freezePlayer)
 		{
@@ -74,4 +76,6 @@ public class PlayerController : MonoBehaviour
 			jumpCount = 0;
 		}
 	}
+	
+	
 }
