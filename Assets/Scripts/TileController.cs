@@ -38,7 +38,7 @@ public class TileController : MonoBehaviour
 	}
 	
 	void OnCollisionEnter2D(Collision2D col) {
-		if (col.gameObject.tag == "SoundParticle" && alpha < 200)
+		if (gameObject.layer == 8 && col.gameObject.tag == "SoundParticle" && alpha < 200)
 		{
 			particleController pc = col.gameObject.GetComponent<particleController>() as particleController;
 			collisions += 1;

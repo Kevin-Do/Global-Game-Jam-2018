@@ -1,0 +1,2314 @@
+fileFormatVersion: 2
+guid: d257f9e4d2461443ba157a6c200c4b85
+timeCreated: 1517109384
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: minimal_industry_tank_thin
+    21300002: minimal_industry_tank_horizontal
+    21300004: minimal_industry_stair_block
+    21300006: minimal_industry_elevated_walkway_triple
+    21300008: minimal_industry_tank_horizontal_large
+    21300010: minimal_industry_stair_hollow_2_large
+    21300012: minimal_industry_stair_tall
+    21300014: minimal_industry_elevated_walkway_left
+    21300016: minimal_industry_elevated_walkway_right
+    21300018: industry_shapes
+    21300020: minimal_industry_medium_walkway
+    21300022: minimal_industry_11
+    21300024: minimal_industry_12
+    21300026: minimal_industry_rock_1
+    21300028: minimal_industry_14
+    21300030: minimal_industry_15
+    21300032: minimal_industry_16
+    21300034: minimal_industry_handrail_metal
+    21300036: minimal_industry_fence_barbed
+    21300038: minimal_industry_tube_long
+    21300040: minimal_industry_v_beam_long
+    21300042: minimal_industry_21
+    21300044: minimal_industry_22
+    21300046: minimal_industry_ring_small
+    21300048: minimal_industry_ladder_1
+    21300050: minimal_industry_ladder_2
+    21300052: minimal_industry_ring_large
+    21300054: minimal_industry_wheel_small
+    21300056: minimal_industry_workbench
+    21300058: minimal_industry_chair_science
+    21300060: minimal_industry_desk_messy
+    21300062: minimal_industry_sink
+    21300064: minimal_industry_gas_pump
+    21300066: minimal_industry_toilet
+    21300068: minimal_industry_sign_yield
+    21300070: minimal_industry_sign_notice
+    21300072: minimal_industry_sign_stop
+    21300074: minimal_industry_cone
+    21300076: minimal_industry_tank_square_large
+    21300078: minimal_industry_39
+    21300080: minimal_industry_elevated_walkway_medium
+    21300082: minimal_industry_tank_large
+    21300084: minimal_industry_beam_1
+    21300086: minimal_industry_handrail_stone
+    21300088: minimal_industry_ring_square
+    21300090: minimal_industry_45
+    21300092: minimal_industry_desk
+    21300094: minimal_industry_desk_long
+    21300096: minimal_industry_chair_left
+    21300098: minimal_industry_chair_forward
+    21300100: minimal_industry_chair_back
+    21300102: minimal_industry_chair_left_2
+    21300104: minimal_industry_stair_block_large
+    21300106: minimal_industry_53
+    21300108: minimal_industry_stair_serif
+    21300110: minimal_industry_stair_serif_2
+    21300112: minimal_industry_stair_serif_2_large
+    21300114: minimal_industry_stair_serif_3
+    21300116: minimal_industry_58
+    21300118: minimal_industry_stair_hollow_
+    21300120: minimal_industry_60
+    21300122: minimal_industry_61
+    21300124: minimal_industry_62
+    21300126: minimal_industry_stair-hollow_2
+    21300128: minimal_industry_64
+    21300130: minimal_industry_65
+    21300132: minimal_industry_66
+    21300134: minimal_industry_67
+    21300136: minimal_industry_68
+    21300138: minimal_industry_stair_hollow_wide
+    21300140: minimal_industry_70
+    21300142: minimal_industry_stair_tall_wide
+    21300144: minimal_industry_72
+    21300146: minimal_industry_stair_mini
+    21300148: minimal_industry_74
+    21300150: minimal_industry_stair_mini_wide
+    21300152: minimal_industry_76
+    21300154: minimal_industry_77
+    21300156: minimal_industry_78
+    21300158: minimal_industry_79
+    21300160: minimal_industry_stair_mini_2
+    21300162: minimal_industry_square_vent_1
+    21300164: minimal_industry_square_vent_2
+    21300166: minimal_industry_square_vent_3
+    21300168: minimal_industry_81
+    21300170: minimal_industry_vent_diamond_square
+    21300172: minimal_industry_vent_diamond_wide
+    21300174: minimal_industry_vent_diamond_tall
+    21300176: minimal_industry_crossbeam_small_2
+    21300178: minimal_industry_cross
+    21300180: minimal_industry_crossbeam_large
+    21300182: minimal_industry_elevated_walkway_small
+    21300184: minimal_industry_tank_square
+    21300186: minimal_industry_crane_corner
+    21300188: minimal_industry_walkway_pillar
+    21300190: minimal_industry_beam_2
+    21300192: minimal_industry_beam_3
+    21300194: minimal_industry_tube_short
+    21300196: minimal_industry_v_beam_short
+    21300198: minimal_industry_fence_razor_short
+    21300200: minimal_industry_rock_2
+    21300202: minimal_industry_rock_3
+    21300204: minimal_industry_rock_4
+    21300206: minimal_industry_rock_5
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: minimal_industry_tank_thin
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 32
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 55.5}
+        - {x: -16, y: -55.5}
+        - {x: 16, y: -55.5}
+        - {x: 16, y: 52.5}
+        - {x: 10, y: 55.5}
+      - - {x: -4, y: -39.5}
+        - {x: -4, y: -39.5}
+      - - {x: 4, y: -39.5}
+        - {x: 4, y: -39.5}
+      - - {x: -4, y: -31.5}
+        - {x: -4, y: -31.5}
+      - - {x: 4, y: -31.5}
+        - {x: 4, y: -31.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_tank_horizontal
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 609
+        width: 76
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -33, y: 15}
+        - {x: -38, y: 10}
+        - {x: -38, y: -9}
+        - {x: -32, y: -15}
+        - {x: 37, y: -15}
+        - {x: 38, y: -11}
+        - {x: 38, y: 12}
+        - {x: 35, y: 15}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_block
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 623
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8.5}
+        - {x: -8, y: 0.5}
+        - {x: -8, y: -8.5}
+        - {x: 8, y: -8.5}
+        - {x: 8, y: 8.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_elevated_walkway_triple
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 576
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -6}
+        - {x: -22, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_tank_horizontal_large
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 512
+        width: 157
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -66.5, y: 32}
+        - {x: -78.5, y: 23}
+        - {x: -78.5, y: -23}
+        - {x: -67.5, y: -32}
+        - {x: 66.5, y: -32}
+        - {x: 78.5, y: -23}
+        - {x: 78.5, y: 19}
+        - {x: 73.5, y: 32}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_hollow_2_large
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 512
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -31.5, y: -16}
+        - {x: -20.5, y: -16}
+        - {x: 31.5, y: 10}
+        - {x: 31.5, y: 16}
+        - {x: 14.5, y: 16}
+        - {x: -31.5, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_tall
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 24}
+        - {x: -15, y: 4}
+        - {x: -16, y: 1}
+        - {x: -16, y: -20}
+        - {x: -11, y: -24}
+        - {x: 12, y: -24}
+        - {x: 16, y: 10}
+        - {x: 16, y: 24}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_elevated_walkway_left
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 16}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_elevated_walkway_right
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 16}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: industry_shapes
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 320
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -72, y: 48}
+        - {x: -72, y: -2}
+        - {x: -24, y: -2}
+        - {x: -22, y: 0}
+        - {x: -28, y: -13}
+        - {x: -13, y: -48}
+        - {x: 29, y: -48}
+        - {x: 72, y: -5}
+        - {x: 72, y: 48}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_medium_walkway
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 8}
+        - {x: -24, y: -8}
+        - {x: 24, y: -8}
+        - {x: 24, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 8}
+        - {x: -24, y: -8}
+        - {x: 23, y: -8}
+        - {x: 24, y: -7}
+        - {x: 24, y: 8}
+      - - {x: -4, y: 3}
+        - {x: -12, y: 3}
+      - - {x: 12, y: 3}
+        - {x: 4, y: 3}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 81
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -40.5, y: 8}
+        - {x: -40.5, y: -8}
+        - {x: 40.5, y: -8}
+        - {x: 40.5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_rock_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_14
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 288
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 8}
+        - {x: -3, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 288
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 8}
+        - {x: -11, y: -8}
+        - {x: 11, y: -8}
+        - {x: 11, y: 8}
+      - - {x: -2, y: 1}
+        - {x: 2, y: 1}
+        - {x: 2, y: 0}
+        - {x: -2, y: 0}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 8}
+        - {x: -24, y: -8}
+        - {x: 24, y: -8}
+        - {x: 24, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_handrail_metal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_fence_barbed
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_tube_long
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 216
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 4}
+        - {x: -24, y: -4}
+        - {x: 24, y: -4}
+        - {x: 24, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_v_beam_long
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 201
+        width: 48
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 3.5}
+        - {x: -24, y: 0.5}
+        - {x: -20, y: -3.5}
+        - {x: 20, y: -3.5}
+        - {x: 24, y: 0.5}
+        - {x: 24, y: 3.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: 24}
+        - {x: -24.5, y: -24}
+        - {x: -0.5, y: -24}
+        - {x: 24.5, y: -12}
+        - {x: 24.5, y: 22}
+        - {x: 14.5, y: 24}
+      - - {x: -0.5, y: 7}
+        - {x: -7.5, y: 4}
+        - {x: -7.5, y: -16}
+        - {x: -4.5, y: -23}
+        - {x: 13.5, y: -23}
+        - {x: 22.5, y: -15}
+        - {x: 22.5, y: -1}
+        - {x: 14.5, y: 7}
+      - - {x: 6.5, y: -8}
+        - {x: 7.5, y: -7}
+        - {x: 8.5, y: -8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 143
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 28.5}
+        - {x: -32, y: -28.5}
+        - {x: 32, y: -28.5}
+        - {x: 32, y: 28.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_ring_small
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 101
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 11}
+        - {x: -9, y: 11}
+        - {x: -11, y: 10}
+        - {x: -11, y: -7}
+        - {x: -9, y: -11}
+        - {x: 7, y: -11}
+        - {x: 11, y: -7}
+        - {x: 11, y: 8}
+      - - {x: -1, y: 2}
+        - {x: 1, y: 2}
+        - {x: 2, y: -1}
+        - {x: -2, y: -2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_ladder_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8.5, y: 19.5}
+        - {x: -8.5, y: -19.5}
+        - {x: 7.5, y: -19.5}
+        - {x: 8.5, y: -18.5}
+        - {x: 8.5, y: 19.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_ladder_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 82
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 17}
+        - {x: -7.5, y: -17}
+        - {x: 6.5, y: -17}
+        - {x: 7.5, y: -13}
+        - {x: 7.5, y: 17}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_ring_large
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: 30}
+        - {x: -13, y: 30}
+        - {x: -30, y: 21}
+        - {x: -30, y: -13}
+        - {x: -21, y: -30}
+        - {x: 19, y: -30}
+        - {x: 30, y: -15}
+        - {x: 30, y: 14}
+        - {x: 29, y: 16}
+      - - {x: -8, y: -14}
+        - {x: -14, y: 8}
+        - {x: 8, y: 14}
+        - {x: 14, y: -8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_wheel_small
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 50
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: 14}
+        - {x: -14, y: 7}
+        - {x: -14, y: -7}
+        - {x: -7, y: -14}
+        - {x: 7, y: -14}
+        - {x: 14, y: -6}
+        - {x: 14, y: 11}
+        - {x: 8, y: 14}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_workbench
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 6}
+        - {x: -8, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_chair_science
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 48
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 8}
+        - {x: -6, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_desk_messy
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_sink
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 16
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 7}
+        - {x: -5, y: -7}
+        - {x: 4, y: -7}
+        - {x: 5, y: -5}
+        - {x: 5, y: 7}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_gas_pump
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 13}
+        - {x: -8, y: -13}
+        - {x: 8, y: -13}
+        - {x: 8, y: 13}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_toilet
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 16
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -5, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_sign_yield
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 14}
+        - {x: -5, y: 13}
+        - {x: -5, y: -14}
+        - {x: 4, y: -14}
+        - {x: 5, y: -5}
+        - {x: 5, y: 11}
+        - {x: 3, y: 14}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_sign_notice
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 13.5}
+        - {x: -5, y: 3.5}
+        - {x: -4, y: -13.5}
+        - {x: 4, y: -13.5}
+        - {x: 5, y: -3.5}
+        - {x: 5, y: 13.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_sign_stop
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 14}
+        - {x: -5, y: -14}
+        - {x: 4, y: -14}
+        - {x: 5, y: -10}
+        - {x: 5, y: 14}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_cone
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 4.5}
+        - {x: -4, y: 2.5}
+        - {x: -4, y: -4.5}
+        - {x: 4, y: -4.5}
+        - {x: 4, y: 2.5}
+        - {x: 3, y: 4.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_tank_square_large
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.49274158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -27, y: 32}
+        - {x: -32, y: 28}
+        - {x: -32, y: -32}
+        - {x: 32, y: -32}
+        - {x: 32, y: 26}
+        - {x: 26, y: 32}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_39
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 610
+        width: 76
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -36, y: 15}
+        - {x: -38, y: 10}
+        - {x: -38, y: -14}
+        - {x: -35, y: -15}
+        - {x: 35, y: -15}
+        - {x: 38, y: -13}
+        - {x: 38, y: 11}
+        - {x: 36, y: 15}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_elevated_walkway_medium
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 480
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24, y: 16}
+        - {x: -24, y: -12}
+        - {x: -22, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_tank_large
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 400
+        width: 65
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15.5, y: 88}
+        - {x: -32.5, y: 64}
+        - {x: -32.5, y: -82}
+        - {x: -23.5, y: -88}
+        - {x: 23.5, y: -88}
+        - {x: 32.5, y: -77}
+        - {x: 32.5, y: 52}
+        - {x: 7.5, y: 88}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_beam_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 24}
+        - {x: -8, y: -24}
+        - {x: 8, y: -24}
+        - {x: 8, y: 24}
+      - - {x: -1, y: 3}
+        - {x: 1, y: 3}
+        - {x: 1, y: -19}
+        - {x: -1, y: -19}
+      - - {x: -1, y: 19}
+        - {x: 1, y: 19}
+        - {x: 1, y: 13}
+        - {x: -1, y: 13}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_handrail_stone
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_ring_square
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 101
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11, y: 11}
+        - {x: -11, y: -11}
+        - {x: 11, y: -11}
+        - {x: 11, y: 11}
+      - - {x: -2, y: 1}
+        - {x: 1, y: 2}
+        - {x: 2, y: -1}
+        - {x: -1, y: -2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_45
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 81
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 17.5}
+        - {x: -7.5, y: -17.5}
+        - {x: 6.5, y: -17.5}
+        - {x: 7.5, y: -15.5}
+        - {x: 7.5, y: 17.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_desk
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 6}
+        - {x: -8, y: -6}
+        - {x: 8, y: -6}
+        - {x: 8, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_desk_long
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 6}
+        - {x: -16, y: -6}
+        - {x: 16, y: -6}
+        - {x: 16, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_chair_left
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 32
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: -5, y: 3}
+        - {x: -5, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_chair_forward
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 32
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: -4, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_chair_back
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 32
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: 8}
+        - {x: -5, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_chair_left_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 32
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.5, y: 8}
+        - {x: -5.5, y: 2}
+        - {x: -5.5, y: -8}
+        - {x: 5.5, y: -8}
+        - {x: 5.5, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_block_large
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 623
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5.5, y: 8.5}
+        - {x: -14.5, y: 2.5}
+        - {x: -14.5, y: -8.5}
+        - {x: 14.5, y: -8.5}
+        - {x: 14.5, y: 8.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 607
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -11.5, y: 7.5}
+        - {x: -14.5, y: 0.5}
+        - {x: -14.5, y: -7.5}
+        - {x: 14.5, y: -7.5}
+        - {x: 14.5, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_serif
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 607
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 7.5}
+        - {x: -8, y: 2.5}
+        - {x: -8, y: -7.5}
+        - {x: 8, y: -7.5}
+        - {x: 8, y: 7.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_serif_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 589
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 9}
+        - {x: -8, y: -1}
+        - {x: -8, y: -8}
+        - {x: -5, y: -9}
+        - {x: 8, y: -9}
+        - {x: 8, y: 9}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_serif_2_large
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 589
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1.5, y: 9}
+        - {x: -15.5, y: 0}
+        - {x: -15.5, y: -9}
+        - {x: 15.5, y: -9}
+        - {x: 15.5, y: 9}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_serif_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 576
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 6.5}
+        - {x: -8, y: -6.5}
+        - {x: 8, y: -6.5}
+        - {x: 8, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_58
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 576
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: 6.5}
+        - {x: -8.5, y: 4.5}
+        - {x: -15.5, y: -0.5}
+        - {x: -15.5, y: -6.5}
+        - {x: 15.5, y: -6.5}
+        - {x: 15.5, y: 6.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_hollow_
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 16}
+        - {x: -16, y: -8}
+        - {x: -16, y: -16}
+        - {x: -9, y: -16}
+        - {x: 16, y: 9}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_60
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 544
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 16}
+        - {x: -32, y: 5}
+        - {x: 18, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: -10}
+        - {x: -15, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 512
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -21, y: 16}
+        - {x: -32, y: 16}
+        - {x: -32, y: 10}
+        - {x: 20, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: -10}
+        - {x: -16, y: 14}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_62
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 511
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10.5, y: -16.5}
+        - {x: -11.5, y: -13.5}
+        - {x: -16.5, y: -13.5}
+        - {x: -16.5, y: -16.5}
+      - - {x: -16.5, y: 16.5}
+        - {x: -16.5, y: 10.5}
+        - {x: 10.5, y: -16.5}
+        - {x: 16.5, y: -16.5}
+        - {x: 16.5, y: 2.5}
+        - {x: -9.5, y: 16.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair-hollow_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 16}
+        - {x: -16, y: -8}
+        - {x: -16, y: -16}
+        - {x: -10, y: -16}
+        - {x: 16, y: 10}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 28}
+        - {x: -8, y: -28}
+        - {x: 8, y: -28}
+        - {x: 8, y: 28}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_65
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 8}
+        - {x: -16, y: 7}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: 7}
+        - {x: 15, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -8, y: 7}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -8, y: 7}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 7}
+        - {x: 7, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_68
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 8}
+        - {x: -16, y: 7}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: 7}
+        - {x: 15, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_hollow_wide
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 544
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -31.5, y: -1}
+        - {x: -31.5, y: -16}
+        - {x: -17.5, y: -16}
+        - {x: 31.5, y: 6}
+        - {x: 31.5, y: 16}
+        - {x: 10.5, y: 16}
+        - {x: -30.5, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_70
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 464
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 24}
+        - {x: -16, y: -6}
+        - {x: -14, y: -24}
+        - {x: 15, y: -24}
+        - {x: 16, y: -19}
+        - {x: 16, y: 3}
+        - {x: -9, y: 24}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_tall_wide
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 464
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: 24}
+        - {x: -3, y: 18}
+        - {x: -32, y: 2}
+        - {x: -32, y: -16}
+        - {x: -30, y: -24}
+        - {x: 27, y: -24}
+        - {x: 32, y: 12}
+        - {x: 32, y: 24}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_72
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 464
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -20, y: 24}
+        - {x: -32, y: 24}
+        - {x: -32, y: -10}
+        - {x: -30, y: -24}
+        - {x: 30, y: -24}
+        - {x: 32, y: -16}
+        - {x: 32, y: 2}
+        - {x: -15, y: 23}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_mini
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: 1}
+        - {x: 2, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_mini_wide
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 448
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: -9, y: 4}
+        - {x: -17, y: -2}
+        - {x: -17, y: -8}
+        - {x: 17, y: -8}
+        - {x: 17, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_76
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 448
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 8}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -2}
+        - {x: -3, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 8}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -2}
+        - {x: -3, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_78
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 432
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 8}
+        - {x: -14, y: 1}
+        - {x: -14, y: -8}
+        - {x: 14, y: -8}
+        - {x: 14, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -10, y: 8}
+        - {x: -10, y: -8}
+        - {x: 10, y: -8}
+        - {x: 10, y: -2}
+        - {x: -2, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_stair_mini_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_square_vent_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_square_vent_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_square_vent_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_81
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_vent_diamond_square
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 193
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: 15.5}
+        - {x: -15.5, y: 3.5}
+        - {x: -15.5, y: -4.5}
+        - {x: -4.5, y: -15.5}
+        - {x: 3.5, y: -15.5}
+        - {x: 15.5, y: -3.5}
+        - {x: 15.5, y: 2.5}
+        - {x: 2.5, y: 15.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_vent_diamond_wide
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 192
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12.5, y: 16}
+        - {x: -31.5, y: 3}
+        - {x: -31.5, y: -4}
+        - {x: -12.5, y: -16}
+        - {x: 6.5, y: -16}
+        - {x: 31.5, y: -6}
+        - {x: 31.5, y: 7}
+        - {x: 6.5, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_vent_diamond_tall
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 128
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3.5, y: 32.5}
+        - {x: -15.5, y: 15.5}
+        - {x: -15.5, y: -9.5}
+        - {x: -7.5, y: -32.5}
+        - {x: 2.5, y: -32.5}
+        - {x: 15.5, y: -6.5}
+        - {x: 15.5, y: 5.5}
+        - {x: 2.5, y: 32.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_crossbeam_small_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: 4, y: -1}
+        - {x: 3, y: -3}
+        - {x: 1, y: -4}
+        - {x: 2, y: -4}
+      - - {x: -3, y: 3}
+        - {x: -1, y: 4}
+        - {x: -4, y: 1}
+        - {x: -3, y: 1}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_cross
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      - - {x: -4, y: -1}
+        - {x: -1, y: -4}
+        - {x: -3, y: -3}
+      - - {x: 1, y: 4}
+        - {x: 3, y: 3}
+        - {x: 4, y: 1}
+        - {x: 4, y: 2}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_crossbeam_large
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: 0, y: -5}
+        - {x: 7, y: -12}
+        - {x: -7, y: -12}
+        - {x: -6, y: -12}
+      - - {x: -12, y: 7}
+        - {x: -5, y: 0}
+        - {x: -12, y: -7}
+        - {x: -11, y: -7}
+      - - {x: 5, y: 0}
+        - {x: 12, y: 7}
+        - {x: 12, y: -7}
+        - {x: 12, y: -6}
+      - - {x: -7, y: 12}
+        - {x: 7, y: 12}
+        - {x: 0, y: 5}
+        - {x: 0, y: 6}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_elevated_walkway_small
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 16}
+        - {x: -8, y: -5}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 8, y: -14}
+        - {x: 8, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_tank_square
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 607
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15, y: 16.5}
+        - {x: -15, y: -16.5}
+        - {x: 15, y: -16.5}
+        - {x: 15, y: 16.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_crane_corner
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: -2, y: -16}
+        - {x: 16, y: 2}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_walkway_pillar
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 16}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_beam_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 24}
+        - {x: -8, y: -24}
+        - {x: 8, y: -24}
+        - {x: 8, y: 24}
+      - - {x: -1, y: -10}
+        - {x: 2, y: -3}
+        - {x: 2, y: -13}
+        - {x: 2, y: -12}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_beam_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 24}
+        - {x: -8, y: -24}
+        - {x: 8, y: -24}
+        - {x: 8, y: 24}
+      - - {x: -2, y: -3}
+        - {x: 1, y: -10}
+        - {x: -2, y: -13}
+        - {x: -1, y: -13}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_tube_short
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 4}
+        - {x: -8, y: -4}
+        - {x: 8, y: -4}
+        - {x: 8, y: 4}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_v_beam_short
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 3.5}
+        - {x: -8, y: 0.5}
+        - {x: -4, y: -3.5}
+        - {x: 4, y: -3.5}
+        - {x: 8, y: 0.5}
+        - {x: 8, y: 3.5}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_fence_razor_short
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 28}
+        - {x: -8, y: -28}
+        - {x: 8, y: -28}
+        - {x: 8, y: 28}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_rock_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_rock_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_rock_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: minimal_industry_rock_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

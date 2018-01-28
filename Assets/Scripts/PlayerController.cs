@@ -116,7 +116,7 @@ public class PlayerController : MonoBehaviour
 			Vector2 dir =  new Vector2( Mathf.Cos(i) , Mathf.Sin(i));
 			pc.rb.velocity = dir * soundSpeed;
 			pc.transform.position = transform.position;
-			pc.setStrength(3 / lifetimeSoundParticles );
+			pc.setStrength(6 / lifetimeSoundParticles );
 			
 			Destroy (pc.gameObject , lifetimeSoundParticles);
 		}

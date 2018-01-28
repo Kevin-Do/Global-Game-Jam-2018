@@ -7,6 +7,9 @@ TagManager:
   - Floor
   - SoundParticle
   - Background
+  - Strike Zone
+  - Command
+  - Foreground
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - Level Layer
   - Particle Layer
   - Background Layer
-  - 
+  - Foreground Layer
   - 
   - 
   - 
