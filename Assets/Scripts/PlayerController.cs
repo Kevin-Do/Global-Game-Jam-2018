@@ -125,6 +125,7 @@ public class PlayerController : MonoBehaviour
 			pc.rb.velocity = dir * soundSpeed;
 			pc.transform.position = transform.position;
 			pc.setStrength(soundStrength);
+			pc.cutoff = 100f / (float) numSoundParticles;
 			
 			Destroy (pc.gameObject , lifetimeSoundParticles);
 		}

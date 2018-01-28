@@ -101,11 +101,14 @@ MonoBehaviour:
   isFollowing: 0
   spacing: 0
   Animator: {fileID: 0}
-  particlePrefab: {fileID: 0}
+  particlePrefab: {fileID: 114297173607345658, guid: 814db95478ac2495280e708def030643,
+    type: 2}
   soundSpeed: 4
   soundColor: {r: 0.9607844, g: 0.14117648, b: 0, a: 1}
   numSoundParticles: 20
   lifetimeSoundParticles: 3
+  soundStrength: 0
+  cooldown: 0
 --- !u!212 &212475384599022054
 SpriteRenderer:
   m_ObjectHideFlags: 1

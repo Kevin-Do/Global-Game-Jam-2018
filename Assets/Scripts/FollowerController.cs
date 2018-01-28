@@ -6,7 +6,6 @@ public class FollowerController : MonoBehaviour {
 	
 	//Follower Factors
 	public Transform playerPosition;
-	public QTEController qte;
 
 	public bool isFollowing = false;
 
@@ -24,8 +23,8 @@ public class FollowerController : MonoBehaviour {
 	public float lifetimeSoundParticles;
 	public float soundStrength;
 	public float cooldown;
-	
 
+	public AudioSource audioSource;
 	private bool canEmit;
 	private bool onFloor;
 	private bool standingStill;
@@ -35,6 +34,7 @@ public class FollowerController : MonoBehaviour {
 		pastPositions = new List<Vector3>();
 		pastFloors = new List<bool>();
 		Animator = GetComponent<Animator>();
+		audioSource = GetComponent<AudioSource>();
 		spacing = 8;
 		canEmit = true;
 	}
@@ -158,7 +158,7 @@ public class FollowerController : MonoBehaviour {
 			index = player.followers + 1;
 			player.followers += 1;
 			isFollowing = true;
-			qte.Register(this);
+			audioSource.mute = false;
 		}
 		if (other.gameObject.tag == "Floor") {
 			onFloor = true;

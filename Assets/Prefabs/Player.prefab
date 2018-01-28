@@ -127,7 +127,8 @@ MonoBehaviour:
   cooldown: 0.5
   jumpCount: 0
   jumpLimit: 1
-  particlePrefab: {fileID: 0}
+  particlePrefab: {fileID: 114297173607345658, guid: 814db95478ac2495280e708def030643,
+    type: 2}
   soundSpeed: 6
   soundColor: {r: 1, g: 1, b: 1, a: 0.88235295}
   numSoundParticles: 50
