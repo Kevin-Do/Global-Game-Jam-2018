@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 
 	//Components
 	public Rigidbody2D rb;
-	
+	public Animator Animator;
 	
 	//Player Factors
 	public float playerSpeed;
@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 	public int jumpCount = 0;
 	public int jumpLimit = 1;
 	
+	//Particle System
 	public particleController particlePrefab;
 	public float soundSpeed;
 	public Color soundColor;
@@ -29,6 +30,7 @@ public class PlayerController : MonoBehaviour
 	
 	void Awake () {
 		rb = GetComponent<Rigidbody2D>();
+		Animator = GetComponent<Animator>();
 		followers = 0;
 		onFloor = false;
 	}
@@ -48,6 +50,9 @@ public class PlayerController : MonoBehaviour
 		//Handle Movement
 		Move();
 		
+		//Animation
+		Animator.SetBool("PlayerJump", !onFloor);
+
 		//Handle Emitting a wave
 //		SoundEmit();
 	}
@@ -56,7 +61,10 @@ public class PlayerController : MonoBehaviour
 	{
 		float moveHorizontal = Input.GetAxisRaw("Horizontal");
 		rb.velocity = new Vector2(moveHorizontal * playerSpeed, rb.velocity.y);
-
+		if (onFloor)
+		{
+			Animator.SetBool("PlayerWalk", moveHorizontal != 0.0f);
+		}
 		//Handle facing left/right
 		if (moveHorizontal != 0f && (moveHorizontal < 0f) != transform.localScale.x < 0) 
 		{
@@ -75,6 +83,7 @@ public class PlayerController : MonoBehaviour
 	{
 		if (Input.GetButtonDown("Jump") && jumpCount < jumpLimit && onFloor)
 		{
+			Animator.SetBool("PlayerJump", true);
 			jumpCount++;
 			Vector2 movement = Vector2.up * playerJumpForce;
 			rb.velocity = new Vector2(rb.velocity.x, (float) 0.1);

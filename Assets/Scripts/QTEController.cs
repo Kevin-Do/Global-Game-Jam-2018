@@ -26,7 +26,6 @@ public class QTEController : MonoBehaviour
 	{
 		SZC = GetComponentInChildren<StrikeZoneController>();
 		InvokeRepeating("CreateCommand", 0.0f, BPM);
-		Debug.Log(ArrowKeys[0]);
 		followers = new List<FollowerController>();
 	}
 
@@ -35,7 +34,6 @@ public class QTEController : MonoBehaviour
 		
 		int genKey = Random.Range(0, followers.Count + 1);
 		
-		Debug.Log("Creating Arrow with command: " + ArrowKeys[genKey]);
 		Quaternion rot = Quaternion.Euler(0,0,180);
 		Vector3 pos = transform.position + new Vector3(0f,2f,0f);
 		if (genKey == 1)
@@ -52,7 +50,6 @@ public class QTEController : MonoBehaviour
 			pos = transform.position + new Vector3(0f,-2f,0f);
 		}
 
-		Debug.Log(pos);
 		var arrow = (GameObject)Instantiate(
 			ArrowPrefab,
 			pos,

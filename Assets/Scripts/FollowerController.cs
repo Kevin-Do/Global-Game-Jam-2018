@@ -15,8 +15,8 @@ public class FollowerController : MonoBehaviour {
 	private int numOffset;
 	public int spacing;
 	private int index;
-	
-	
+
+	public Animator Animator;
 	public particleController particlePrefab;
 	public float soundSpeed;
 	public Color soundColor;
@@ -25,10 +25,12 @@ public class FollowerController : MonoBehaviour {
 
 	private bool canEmit;
 	private bool onFloor;
+	private bool standingStill;
 	
 	void Awake () {
 		pastPositions = new List<Vector3>();
 		pastFloors = new List<bool>();
+		Animator = GetComponent<Animator>();
 		spacing = 8;
 		canEmit = true;
 	}
@@ -69,8 +71,18 @@ public class FollowerController : MonoBehaviour {
 		if (isFollowing && pastPositions.Count > 0) {
 			Vector3 lastPosition = pastPositions[pastPositions.Count - 1];
 			Vector3 currentPosition = transform.position;
-			transform.position = (lastPosition + currentPosition * 3) / 4;
-			onFloor = pastFloors[pastFloors.Count - 1];
+			standingStill = (lastPosition - currentPosition).magnitude < 0.001f;
+
+			if (!standingStill)
+			{
+				Animator.SetBool("FollowerWalk", onFloor);
+				transform.position = (lastPosition + currentPosition * 3) / 4;
+				onFloor = pastFloors[pastFloors.Count - 1];
+			}
+			else
+			{
+				Animator.SetBool("FollowerWalk", false);
+			}
 
 		}
 	}
@@ -80,6 +92,10 @@ public class FollowerController : MonoBehaviour {
 		
 		SavePosition();
 		Follow();
+		if (!standingStill)
+		{
+			Animator.SetBool("FollowerJump", !onFloor);
+		}
 	}
 	
 	private void CreateParticles(float angle, int numSoundParticles, bool loop)
@@ -136,8 +152,17 @@ public class FollowerController : MonoBehaviour {
 			index = player.followers + 1;
 			player.followers += 1;
 			isFollowing = true;
-			Debug.Log(this);
 			qte.Register(this);
+		}
+		if (other.gameObject.tag == "Floor") {
+			onFloor = true;
+		}
+	}
+
+	private void OnTriggerExit2D(Collider2D other)
+	{
+		if (other.gameObject.tag == "Floor") {
+			onFloor = false;
 		}
 	}
 }

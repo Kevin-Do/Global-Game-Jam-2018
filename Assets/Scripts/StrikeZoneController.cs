@@ -34,7 +34,6 @@ public class StrikeZoneController : MonoBehaviour
 	{
 		canPress = true;
 		currentKeyCommand = other.gameObject.GetComponent<ArrowController>().keyCommand;
-		Debug.Log("You can now press!" + currentKeyCommand );
 		currArrow = other.gameObject;
 
 	}
