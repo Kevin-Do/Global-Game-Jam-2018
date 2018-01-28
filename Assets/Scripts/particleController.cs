@@ -13,10 +13,10 @@ public class particleController : MonoBehaviour {
 	private LineRenderer leftLine;
 	public float cutoff;
 	private float strength;
+	public Color color;
 
 	void Awake()
 	{
-		
 		rb = GetComponent<Rigidbody2D>();
 		cd = GetComponent<Collider2D>();
 		cutoff = 2.0f;
@@ -34,6 +34,8 @@ public class particleController : MonoBehaviour {
 		left = p;
 		leftLine = gameObject.GetComponent<LineRenderer>();
 		leftLine.material.color = c;
+		color = c;
+		
 
 	}
 

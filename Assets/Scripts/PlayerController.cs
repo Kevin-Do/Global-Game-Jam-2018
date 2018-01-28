@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
 	public float playerSpeed;
 	public float playerJumpForce;
 	public bool onFloor;
-	private bool canEmit;
 	public bool freezePlayer;
 	public int followers;
 	
@@ -32,7 +31,6 @@ public class PlayerController : MonoBehaviour
 		rb = GetComponent<Rigidbody2D>();
 		followers = 0;
 		onFloor = false;
-		canEmit = true;
 	}
 	
 	
@@ -51,7 +49,7 @@ public class PlayerController : MonoBehaviour
 		Move();
 		
 		//Handle Emitting a wave
-		SoundEmit();
+//		SoundEmit();
 	}
 
 	void Move() 
@@ -86,12 +84,12 @@ public class PlayerController : MonoBehaviour
 	}
 
 
-	private void CreateParticles(float angle, int numSoundParticles, bool loop)
+	private void CreateParticles(float angle, int numSoundParticles, bool loop, float offset)
 	{
 		
 		particleController prev = null;
 		particleController first = null;
-		for (float i = 0; i < angle; i += (float) angle/numSoundParticles)
+		for (float i = offset; i < angle; i += (float) angle/numSoundParticles)
 		{
 			
 			particleController pc = Instantiate(particlePrefab) as particleController;
@@ -119,22 +117,17 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 	
-	void SoundEmit()
+	public void SoundEmit()
 	{
-		if (Input.GetButtonDown("Emit0") && canEmit)
+		if (onFloor)
 		{
-
-			if (onFloor)
-			{
-				CreateParticles(Mathf.PI, (int) numSoundParticles / 2, false);
-			}
-			else
-			{
-				CreateParticles(Mathf.PI * 2, (int) numSoundParticles, true);
-			}
-			
-			
+			CreateParticles((float) (Mathf.PI * 0.9), (int) numSoundParticles / 2, false, (float) (-Mathf.PI * 0.3));
 		}
+		else
+		{
+			CreateParticles((float) Mathf.PI * 2, (int) numSoundParticles, true, 0f);
+		}
+		
 	}
 
 	void OnCollisionStay2D(Collision2D col) {

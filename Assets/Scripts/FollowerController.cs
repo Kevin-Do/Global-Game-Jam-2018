@@ -6,6 +6,7 @@ public class FollowerController : MonoBehaviour {
 	
 	//Follower Factors
 	public Transform playerPosition;
+	public QTEController qte;
 
 	public bool isFollowing = false;
 
@@ -24,18 +25,12 @@ public class FollowerController : MonoBehaviour {
 
 	private bool canEmit;
 	private bool onFloor;
-
 	
 	void Awake () {
 		pastPositions = new List<Vector3>();
 		pastFloors = new List<bool>();
 		spacing = 8;
 		canEmit = true;
-	}
-	
-	// Use this for initialization
-	void Start () {
-//		
 	}
 
 	void SavePosition()
@@ -85,7 +80,6 @@ public class FollowerController : MonoBehaviour {
 		
 		SavePosition();
 		Follow();
-		SoundEmit();
 	}
 	
 	private void CreateParticles(float angle, int numSoundParticles, bool loop)
@@ -121,26 +115,20 @@ public class FollowerController : MonoBehaviour {
 		}
 	}
 	
-	void SoundEmit()
+	public void SoundEmit()
 	{
-		if ((index > 0) && Input.GetButtonDown("Emit" + index.ToString()) && canEmit)
+		if (onFloor)
 		{
-			if (onFloor)
-			{
-				CreateParticles(Mathf.PI, (int) numSoundParticles / 2, false);
-			}
-			else
-			{
-				CreateParticles(Mathf.PI * 2, (int) numSoundParticles, true);
-			}
-			
-			
+			CreateParticles(Mathf.PI, (int) numSoundParticles / 2, false);
+		}
+		else
+		{
+			CreateParticles(Mathf.PI * 2, (int) numSoundParticles, true);
 		}
 	}
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		
 		if (!isFollowing && other.gameObject.tag == "Player")
 		{
 			PlayerController player = other.gameObject.GetComponent(typeof(PlayerController)) as PlayerController;
@@ -148,6 +136,8 @@ public class FollowerController : MonoBehaviour {
 			index = player.followers + 1;
 			player.followers += 1;
 			isFollowing = true;
+			Debug.Log(this);
+			qte.Register(this);
 		}
 	}
 }
