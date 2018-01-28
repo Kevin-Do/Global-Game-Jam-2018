@@ -22,10 +22,14 @@ public class FollowerController : MonoBehaviour {
 	public Color soundColor;
 	public int numSoundParticles;
 	public float lifetimeSoundParticles;
+	public float soundStrength;
+	public float cooldown;
+	
 
 	private bool canEmit;
 	private bool onFloor;
 	private bool standingStill;
+	
 	
 	void Awake () {
 		pastPositions = new List<Vector3>();
@@ -96,6 +100,12 @@ public class FollowerController : MonoBehaviour {
 		{
 			Animator.SetBool("FollowerJump", !onFloor);
 		}
+
+		if (isFollowing && canEmit)
+		{
+			StartCoroutine(SoundEmit());
+		}
+		
 	}
 	
 	private void CreateParticles(float angle, int numSoundParticles, bool loop)
@@ -121,7 +131,7 @@ public class FollowerController : MonoBehaviour {
 			Vector2 dir =  new Vector2( Mathf.Cos(i) , Mathf.Sin(i));
 			pc.rb.velocity = dir * soundSpeed;
 			pc.transform.position = transform.position;
-			pc.setStrength(3 / lifetimeSoundParticles );
+			pc.setStrength(soundStrength);
 			
 			Destroy (pc.gameObject , lifetimeSoundParticles);
 		}
@@ -131,16 +141,12 @@ public class FollowerController : MonoBehaviour {
 		}
 	}
 	
-	public void SoundEmit()
+	IEnumerator SoundEmit()
 	{
-		if (onFloor)
-		{
-			CreateParticles(Mathf.PI, (int) numSoundParticles / 2, false);
-		}
-		else
-		{
-			CreateParticles(Mathf.PI * 2, (int) numSoundParticles, true);
-		}
+		canEmit = false;
+		CreateParticles(Mathf.PI * 2, (int) numSoundParticles, true);
+		yield return new WaitForSeconds(cooldown);
+		canEmit = true;
 	}
 
 	void OnTriggerEnter2D(Collider2D other)

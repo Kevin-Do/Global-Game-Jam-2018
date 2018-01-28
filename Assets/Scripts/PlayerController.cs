@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
 	public bool onFloor;
 	public bool freezePlayer;
 	public int followers;
+	public float cooldown;
 	
 	//Jump Variables
 	public int jumpCount = 0;
@@ -26,6 +27,10 @@ public class PlayerController : MonoBehaviour
 	public Color soundColor;
 	public int numSoundParticles;
 	public float lifetimeSoundParticles;
+
+	public float soundStrength;
+
+	private bool isEmitting;
 	
 	
 	void Awake () {
@@ -33,6 +38,7 @@ public class PlayerController : MonoBehaviour
 		Animator = GetComponent<Animator>();
 		followers = 0;
 		onFloor = false;
+		isEmitting = false;
 	}
 	
 	
@@ -54,7 +60,11 @@ public class PlayerController : MonoBehaviour
 		Animator.SetBool("PlayerJump", !onFloor);
 
 		//Handle Emitting a wave
-//		SoundEmit();
+		if (Input.GetButtonDown("Emit0") && !isEmitting)
+		{
+			StartCoroutine(SoundEmit());
+		}
+		
 	}
 
 	void Move() 
@@ -88,7 +98,6 @@ public class PlayerController : MonoBehaviour
 			Vector2 movement = Vector2.up * playerJumpForce;
 			rb.velocity = new Vector2(rb.velocity.x, (float) 0.1);
 			rb.AddForce(movement * playerSpeed);
-			
 		}
 	}
 
@@ -100,7 +109,6 @@ public class PlayerController : MonoBehaviour
 		particleController first = null;
 		for (float i = offset; i < angle; i += (float) angle/numSoundParticles)
 		{
-			
 			particleController pc = Instantiate(particlePrefab) as particleController;
 			if (prev != null)
 			{
@@ -116,7 +124,7 @@ public class PlayerController : MonoBehaviour
 			Vector2 dir =  new Vector2( Mathf.Cos(i) , Mathf.Sin(i));
 			pc.rb.velocity = dir * soundSpeed;
 			pc.transform.position = transform.position;
-			pc.setStrength(6 / lifetimeSoundParticles );
+			pc.setStrength(soundStrength);
 			
 			Destroy (pc.gameObject , lifetimeSoundParticles);
 		}
@@ -126,20 +134,19 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 	
-	public void SoundEmit()
+	
+	
+	IEnumerator SoundEmit()
 	{
-		if (onFloor)
-		{
-			CreateParticles((float) (Mathf.PI * 0.9), (int) numSoundParticles / 2, false, (float) (-Mathf.PI * 0.3));
-		}
-		else
-		{
-			CreateParticles((float) Mathf.PI * 2, (int) numSoundParticles, true, 0f);
-		}
 		
+		isEmitting = true;
+		CreateParticles((float) Mathf.PI * 2, (int) numSoundParticles, true, 0f);
+		yield return new WaitForSeconds(cooldown);
+		isEmitting = false;
 	}
 
 	void OnCollisionStay2D(Collision2D col) {
+		
 		if (col.gameObject.tag == "Floor") {
 			onFloor = true;
 			jumpCount = 0;

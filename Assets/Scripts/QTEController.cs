@@ -73,14 +73,6 @@ public class QTEController : MonoBehaviour
 				if (SZC.canPress && Input.GetButtonDown(SZC.currentKeyCommand.ToString()))
 				{
 					SZC.Correct();
-					if (i == 0)
-					{
-						pc.SoundEmit();
-					}
-					else
-					{
-						followers[i - 1].SoundEmit();
-					}
 					
 				}
 				else

@@ -53,7 +53,7 @@ public class particleController : MonoBehaviour {
 				leftLine.SetPosition(0,leftPos);
 				leftLine.SetPosition(1,transform.position);
 				Color currColor = leftLine.material.color;
-				currColor.a -= Time.deltaTime * strength;
+				currColor.a -= Time.deltaTime / strength;
 				leftLine.material.color = currColor;
 				leftLine.SetColors( currColor, currColor);
 			}
