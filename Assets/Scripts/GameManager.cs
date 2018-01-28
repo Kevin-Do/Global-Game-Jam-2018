@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
 		PauseGame();
 	}
 
-	void PauseGame()
+	public void PauseGame()
 	{
 		if (Input.GetKeyUp(KeyCode.Escape))
 		{
@@ -41,12 +41,17 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
-	void ReturnToMainMenu()
+	public void ReturnToMainMenu()
 	{
 		SceneManager.LoadScene("MainMenu");
 	}
 	
-	void Quit()
+	public void LoadScene(string sceneName)
+	{
+		SceneManager.LoadScene(sceneName);
+	}
+	
+	public void Quit()
 	{
 		Application.Quit();
 	}
