@@ -158,7 +158,7 @@ public class FollowerController : MonoBehaviour {
 			index = player.followers + 1;
 			player.followers += 1;
 			isFollowing = true;
-			audioSource.mute = false;
+			audioSource.Play();
 		}
 		if (other.gameObject.tag == "Floor") {
 			onFloor = true;
